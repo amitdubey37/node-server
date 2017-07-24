@@ -45,7 +45,7 @@ app.get('/projects', (req, res) => {
 })
 
 app.get('/friends', (req, res) => {
-  res.render('projects.hbs', {
+  res.render('friends.hbs', {
     pageTitle: 'Projects',
   });
 })
